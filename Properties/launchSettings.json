@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "Ice_Task_5": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7295"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "containerRunArguments": "--init",
+      "httpPort": 33958,
+      "useSSL": false
+    }
+  }
+}
